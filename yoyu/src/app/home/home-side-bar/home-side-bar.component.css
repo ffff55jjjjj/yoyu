@@ -1,0 +1,9 @@
+.side_bar{
+  width: 200px;
+  height: 100vh;
+  padding:20px;
+  background-color: #555;
+  color: white;
+  position: absolute;
+  right: 0;
+}

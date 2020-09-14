@@ -1,0 +1,42 @@
+.home_title{
+  background-color: black;
+  width: 100%;
+  height: 220px;
+  position: absolute;
+  top: 0;
+}
+.home_title .title{
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: YouYuan;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.home_title .description{
+  color:rgba(255,255,255,0.7);
+  font-size: 14px;
+  font-family: YouYuan;
+  text-align: center;
+  margin: 20px auto;
+
+}
+.home_title .router_list{
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: YouYuan;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.home_title .router_list ol{
+  list-style-type:none;
+  text-align: center;
+}
+
+.home_title .router_list ol li{
+  display: inline-block;
+  margin: 0 30px;
+}
