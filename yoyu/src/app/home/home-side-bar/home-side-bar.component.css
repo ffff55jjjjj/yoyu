@@ -1,9 +1,11 @@
 .side_bar{
   width: 200px;
-  height: 100vh;
+  height: 3000px;
   padding:20px;
   background-color: #555;
   color: white;
   position: absolute;
-  right: 0;
+  right: -200px;
+  top: 0px;
+  transition-duration: 0.4s;
 }

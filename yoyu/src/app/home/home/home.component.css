@@ -4,6 +4,7 @@
   height: 220px;
   position: absolute;
   top: 0;
+  border-bottom: 10px double white;
 }
 .home_title .title{
   color: white;
@@ -39,4 +40,22 @@
 .home_title .router_list ol li{
   display: inline-block;
   margin: 0 30px;
+}
+
+li{
+  font-family: KaiShu;
+}
+
+.active{
+  background-color: white;
+  border-radius:50px;
+  width: 50px;
+  height: 32px;
+  color: black;
+  font-weight: bolder;
+  line-height: 32px;
+}
+
+li:hover{
+  cursor:pointer
 }

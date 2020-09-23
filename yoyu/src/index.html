@@ -4,8 +4,29 @@
   <meta charset="utf-8">
   <title>进度管理</title>
   <base href="/">
+  <link rel="stylesheet" href="assets/layui-src/src/css/layui.css">
+  <script type="text/javascript" src="assets/layui-src/src/layui.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script>
+    layui.use(['form','layer','layedit','laydate','upload','table'],function(){
+      var form = layui.form,
+      layer = parent.layer === undefined ? layui.layer : top.layer,
+      laypage = layui.laypage,
+      upload = layui.upload,
+      layedit = layui.layedit,
+      laydate = layui.laydate,
+      $ = layui.jquery,
+      table = layui.table;
+
+      //日期选择器
+      laydate.render({
+        elem:'#timestamp',
+        type:'createTime',
+        format:'yyyy-MM-dd HH:mm:ss'
+      });
+    });
+  </script>
 </head>
 <body>
   <main-root></main-root>

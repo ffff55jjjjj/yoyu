@@ -1,0 +1,92 @@
+h2{
+  text-align: center;
+  color: #555;
+  font-size: 23px;
+  font-weight: bolder;
+}
+
+.content{
+  margin: 0 auto;
+  padding: 20px;
+  width: 900px;
+}
+
+.content-box{
+  width: 800px;
+  height: 200px;
+  margin: 20px auto;
+}
+
+.date_box{
+  width: 40px;
+  height: 101px;
+  float: left;
+  margin: 50px 0;
+}
+
+.date_day{
+  background: #ffe691;
+  color: #ae8f23;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 0 2px;
+  width:40px;
+  height:48px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.date_month{
+  background: #eee;
+  border-top: 1px solid #e5e5e5;
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+  width:40px;
+  height:24px;
+  line-height: 24px;
+}
+
+.date_year{
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  color: #ccc;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  width:38px;
+  height:24px;
+}
+
+.data-image{
+  float: left;
+  width:100px;
+  height:101px;
+  margin: 50px 20px;
+}
+
+.data-image img{
+  width:100px;
+  height:101px;
+}
+
+.description{
+  float: left;
+  width:400px;
+  height:101px;
+  margin: 50px 20px;
+}
+
+.description-title h2{
+  text-align: left;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.description-content{
+  margin-top: 10px;
+}
+
+.description-content p{
+  font-size: 16px;
+  color: #bbb;
+}

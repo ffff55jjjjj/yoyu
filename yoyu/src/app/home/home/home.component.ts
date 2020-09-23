@@ -12,4 +12,12 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  tagClick(e){
+    if(e.target.tagName === 'LI'){
+      e.target.parentNode.childNodes.forEach(element =>{
+        element.classList.remove('active');
+      });
+      e.target.classList.add('active');
+    }
+  }
 }
